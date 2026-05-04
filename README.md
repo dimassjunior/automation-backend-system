@@ -1,45 +1,79 @@
-# 🎟️ Discord Ticket and Auto-Role Bot | Bot de Tickets e Cargos Automáticos para Discord 🤖
+🚀 Automation Backend System
 
-This is a Discord bot designed to manage tickets and automatic roles. It allows users to open tickets for different categories (support, orders, financial, etc.) and choose language roles (PT-BR or ENG) through buttons.
+Sistema backend orientado a eventos para automação de processos, gerenciamento de requisições e controle de fluxos interativos, desenvolvido com Node.js.
 
-Este é um bot para Discord que gerencia tickets e cargos automáticos. Ele permite que os usuários abram tickets para diferentes categorias (suporte, encomendas, financeiro, etc.) e escolham cargos de idioma (PT-BR ou ENG) por meio de botões.
+O projeto implementa um sistema completo de gerenciamento de solicitações, com controle de acesso, organização por categorias e processamento assíncrono de eventos.
 
----
+📌 Sobre o Projeto
 
-## 🚀 Features | Funcionalidades
+Este sistema foi desenvolvido com foco em:
 
-1. **🎫 Ticket System | Sistema de Tickets:**
-   - Users can open tickets by selecting a category from a menu. | Os usuários podem abrir tickets selecionando uma categoria em um menu.
-   - Tickets are created in private channels, visible only to the user and the support team. | Tickets são criados em canais privados, visíveis apenas para o usuário e a equipe de suporte.
-   - Buttons to close the ticket or add other users to the ticket. | Botões para fechar o ticket ou adicionar outros usuários ao ticket.
+Arquitetura baseada em eventos
+Automação de fluxos de atendimento
+Gerenciamento de requisições por categoria
+Controle de permissões e usuários
+Processamento assíncrono de dados
+⚙️ Funcionalidades
+🧩 Gerenciamento de Requisições
+Criação de solicitações organizadas por categorias
+Separação de contexto por usuário
+Controle de acesso e visibilidade
+🔄 Processamento de Eventos
+Sistema baseado em eventos para execução de ações
+Manipulação de fluxos assíncronos
+Resposta automática a interações
+👥 Controle de Usuários
+Associação de permissões por perfil
+Gerenciamento de acesso dinâmico
+Organização de interações por usuário
+📊 Monitoramento e Logs
+Registro de ações e eventos do sistema
+Rastreamento de alterações e interações
+Geração de registros estruturados
+📁 Geração de Relatórios
+Exportação de dados em formato estruturado (HTML)
+Histórico de interações e atividades
+🛠️ Tecnologias Utilizadas
+JavaScript (Node.js)
+Arquitetura orientada a eventos
+APIs e manipulação de dados
+JSON
+Git e GitHub
+📂 Estrutura do Projeto
 
-2. **🎭 Automatic Roles | Cargos Automáticos:**
-   - Users can choose between PT-BR and ENG roles by clicking buttons. | Os usuários podem escolher entre os cargos PT-BR e ENG clicando em botões.
+automation-backend-system/
+│
+├── src/
+│ ├── events/
+│ ├── handlers/
+│ ├── services/
+│ └── utils/
+│
+├── config/
+├── index.js
+└── package.json
 
-3. **👋 Welcome and Goodbye Messages | Mensagens de Boas-vindas e Saídas:**
-   - Automatic welcome and goodbye messages are sent when a user joins or leaves the server. | Mensagens automáticas de boas-vindas e saídas são enviadas quando um usuário entra ou sai do servidor.
+⚙️ Execução
 
-4. **📜 Message Logs | Logs de Mensagens:**
-   - Logs deleted and edited messages in a specific channel. | Registra mensagens apagadas e editadas em um canal específico.
+git clone https://github.com/dimassjunior/automation-backend-system
 
-5. **📁 Ticket Transcripts | Transcrição de Tickets:**
-   - When a ticket is closed, a transcript (HTML) is generated and sent to the logs channel. | Quando um ticket é fechado, uma transcrição (HTML) é gerada e enviada para o canal de logs.
+cd automation-backend-system
+npm install
+node index.js
 
----
+🧠 Conceitos Aplicados
+Programação assíncrona (async/await)
+Arquitetura modular
+Separação de responsabilidades
+Event-driven architecture
+Manipulação de dados e automação
+📈 Objetivo
 
-## 🛠️ How to Use | Como Usar
+Projeto desenvolvido com foco em prática de desenvolvimento backend, aplicando conceitos utilizados em sistemas reais de automação e gerenciamento de requisições.
 
-### 📋 Prerequisites | Pré-requisitos
+🔗 Autor
 
-1. **Node.js** (v16 or higher) installed. | **Node.js** (v16 ou superior) instalado.
-2. A bot created on the [Discord Developer Portal](https://discord.com/developers/applications). | Um bot criado no [Discord Developer Portal](https://discord.com/developers/applications).
-3. Proper permissions on the server for the bot (read messages, manage channels, manage roles, etc.). | Permissões adequadas no servidor para o bot (ler mensagens, gerenciar canais, gerenciar cargos, etc.).
+Dimas Júnior
+GitHub: https://github.com/dimassjunior
 
----
-
-### ⚙️ Installation | Instalação
-
-1. **Clone the repository:** | **Clone o repositório:**
-   ```bash
-   git clone https://github.com/GatonBr12/Discord-Support-Bot.git
-
+LinkedIn: https://www.linkedin.com/in/dimass-junior/
